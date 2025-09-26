@@ -1,0 +1,7 @@
+color,ciudad,nivel_educativo,satisfaccion,talla
+rojo,CDMX,Primaria,Baja,S
+azul,Monterrey,Secundaria,Media,M
+verde,CDMX,Universidad,Alta,L
+rojo,Puebla,Preparatoria,Media,XL
+azul,Puebla,Posgrado,Alta,M
+verde,Monterrey,Secundaria,Baja,L
