@@ -1,0 +1,9 @@
+producto,sede,turno,nivel_prioridad
+A,Norte,Mañana,Baja
+B,Centro,Tarde,Media
+C,Sur,Noche,Alta
+A,Centro,Noche,Media
+B,Norte,Mañana,Alta
+C,Centro,Tarde,Baja
+B,Sur,Mañana,Media
+A,Sur,Tarde,Alta
