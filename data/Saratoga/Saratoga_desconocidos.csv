@@ -1,0 +1,11 @@
+﻿lotSize,age,landValue,livingArea,pctCollege,bedrooms,fireplaces,bathrooms,rooms,heating,fuel,sewer,waterfront,newConstruction,centralAir,price
+0.28,57,23200,1121,61,3,0,1.5,4,hot air,oil,septic,No,No,No,
+0.81,0,7300,2288,61,3,1,2.5,8,hot air,gas,public/commercial,No,Yes,No,
+0.41,5,43400,2718,61,4,1,2.5,12,hot air,gas,public/commercial,No,No,Yes,
+0.58,42,31400,2464,61,4,1,2.5,8,hot water/steam,gas,public/commercial,No,No,No,
+0.43,41,45800,2426,61,4,2,2,7,hot water/steam,gas,public/commercial,No,No,No,
+0.38,32,24200,2310,61,5,1,2.5,11,hot water/steam,gas,public/commercial,No,No,No,
+0.94,37,36200,2564,61,4,1,2.5,11,hot water/steam,gas,public/commercial,No,No,No,
+0.39,9,20400,1099,51,2,0,1,3,hot air,gas,public/commercial,No,No,No,
+0.24,48,16800,1225,51,3,1,1,7,hot air,gas,public/commercial,No,No,No,
+0.59,86,26000,1959,51,3,0,1,6,hot air,gas,septic,No,No,No,
