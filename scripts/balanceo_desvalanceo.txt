@@ -1,0 +1,17 @@
+# ===== (1) Diagnóstico global ANTES del split =====
+n1 = (y == 1).sum()
+n0 = (y == 0).sum()
+n  = n0 + n1
+p1 = n1 / n
+IR = max(n0, n1) / min(n0, n1)  # Imbalance Ratio (mayoría/minoría)
+
+etiqueta = ("Balance razonable (IR < 1.5)" if IR < 1.5 else
+            "Desbalance moderado (1.5 ≤ IR < 3)" if IR < 3 else
+            "Desbalance severo (IR ≥ 3)")
+
+print(f"[Antes del split] n={n} | 0:{n0} ({n0/n:.1%}) | 1:{n1} ({p1:.1%}) | IR={IR:.3f} -> {etiqueta}")
+
+recomendar_estratificar = (IR >= 1.5)  # flag útil para decidir estratificación
+
+If recomendar_estratificar:
+    print("Se recomienda estratificar. Utilizar stratify=y en split.")
