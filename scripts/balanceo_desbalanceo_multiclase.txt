@@ -1,0 +1,67 @@
+#######################################################
+# ===== Diagnóstico global ANTES del split =====
+#######################################################
+
+def diagnostico_balance_multiclase(y, rare_threshold=0.05):
+    """
+    Diagnóstico de balanceo/desbalanceo para K clases (K>=2).
+    También funciona para el caso binario.
+    - rare_threshold: umbral para marcar clases raras (proporción < rare_threshold).
+    Retorna: dict con resumen y flag recomendar_estratificar.
+    """
+    y_series = pd.Series(y)
+    vc = y_series.value_counts(dropna=False).sort_index()
+    n = int(vc.sum())
+    k = int(vc.shape[0])
+
+    tabla = pd.DataFrame({
+        "clase": vc.index,
+        "n": vc.values,
+        "pct": vc.values / n
+    })
+
+    # Imbalance Ratio (mayoría/minoría). Si alguna clase tiene n=0 => IR=inf (caso patológico).
+    n_min = tabla["n"].min()
+    n_max = tabla["n"].max()
+    IR = (n_max / n_min) if n_min > 0 else np.inf
+
+    # Etiquetas por IR (mismo criterio que binario)
+    if IR < 1.5:
+        etiqueta = "Balance razonable (IR < 1.5)"
+    elif IR < 3:
+        etiqueta = "Desbalance moderado (1.5 ≤ IR < 3)"
+    else:
+        etiqueta = "Desbalance severo (IR ≥ 3)"
+
+    # Recomendación de estratificar: si IR alto o si hay clases raras
+    hay_clases_raras = (tabla["pct"].min() < rare_threshold)
+    recomendar_estratificar = (IR >= 1.5) or hay_clases_raras
+
+    # ---- Prints en estilo “consola” ----
+    print("===== Diagnóstico de clases [antes del split] =====")
+    print(f"n={n} | K={k} | IR=max/min={IR:.3f} -> {etiqueta}")
+    for _, row in tabla.iterrows():
+        print(f"Clase {row['clase']}: n={int(row['n'])} ({row['pct']:.1%})")
+
+    if hay_clases_raras:
+        clases_raras = tabla.loc[tabla["pct"] < rare_threshold, "clase"].tolist()
+        print(f"⚠︎ Clases raras (<{rare_threshold:.0%}): {clases_raras}")
+
+    if recomendar_estratificar:
+        print("Se recomienda estratificar. Utilizar stratify=y en el split.")
+
+    return {
+        "tabla": tabla,
+        "n": n,
+        "K": k,
+        "IR": IR,
+        "etiqueta": etiqueta,
+        "clases_raras": tabla.loc[tabla["pct"] < rare_threshold, "clase"].tolist(),
+        "recomendar_estratificar": recomendar_estratificar
+    }
+
+diagnostico_balance_multiclase(y)
+
+
+
+
