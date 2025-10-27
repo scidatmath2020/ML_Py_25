@@ -13,6 +13,6 @@ print(f"[Antes del split] n={n} | 0:{n0} ({n0/n:.1%}) | 1:{n1} ({p1:.1%}) | IR={
 
 recomendar_estratificar = (IR >= 1.5)  # flag útil para decidir estratificación
 
-If recomendar_estratificar:
-
+if recomendar_estratificar:
     print("Se recomienda estratificar. Utilizar stratify=y en split.")
+
