@@ -1,0 +1,101 @@
+city,state,latitude,longitude
+Mexico City,Mexico City,19.4325,-99.13111
+Tijuana,Baja California,32.53472,-117.04361
+Ecatepec,State of Mexico,19.60972,-99.06
+León,Guanajuato,21.11972,-101.68056
+Puebla,Puebla,19.04528,-98.1975
+Ciudad Juárez,Chihuahua,31.73944,-106.48694
+Guadalajara,Jalisco,20.67639,-103.34222
+Monterrey,Nuevo León,25.67139,-100.30861
+Nezahualcóyotl,State of Mexico,19.39972,-98.98944
+Zapopan,Jalisco,20.72056,-103.38833
+Chihuahua,Chihuahua,28.63528,-106.08889
+Mérida,Yucatán,20.96778,-89.62167
+Naucalpan,State of Mexico,19.47528,-99.23778
+Cancún,Quintana Roo,21.16056,-86.8475
+Saltillo,Coahuila,25.43333,-101
+Aguascalientes,Aguascalientes,21.88083,-102.29611
+Hermosillo,Sonora,29.09889,-110.95417
+Mexicali,Baja California,32.66333,-115.46778
+San Luis Potosí,San Luis Potosí,22.14972,-100.975
+Culiacán,Sinaloa,24.79194,-107.39806
+Querétaro,Querétaro,20.58806,-100.38806
+Morelia,Michoacán,19.70222,-101.18556
+Chimalhuacán,State of Mexico,19.4375,-98.95417
+Reynosa,Tamaulipas,26.09222,-98.27778
+Torreón,Coahuila,25.54444,-103.44167
+Tlalnepantla,State of Mexico,19.53667,-99.19472
+Acapulco,Guerrero,16.86167,-99.88639
+Tlaquepaque,Jalisco,20.63861,-103.30722
+Guadalupe,Nuevo León,25.67917,-100.235
+Durango,Durango,24.02278,-104.65444
+Tuxtla Gutiérrez,Chiapas,16.75306,-93.11556
+Cuautitlán Izcalli,State of Mexico,19.64611,-99.21139
+Veracruz,Veracruz,19.19028,-96.15333
+Ciudad Apodaca,Nuevo León,25.78167,-100.18889
+Ciudad López Mateos,State of Mexico,19.56111,-99.24694
+Matamoros,Tamaulipas,25.87972,-97.50417
+General Escobedo,Nuevo León,25.80861,-100.32694
+Irapuato,Guanajuato,20.67417,-101.3475
+Xalapa,Veracruz,19.53806,-96.90917
+Tonalá,Jalisco,20.62333,-103.24556
+Mazatlán,Sinaloa,23.24139,-106.40972
+Nuevo Laredo,Tamaulipas,27.48639,-99.50806
+San Nicolás de los Garza,Nuevo León,25.74167,-100.30222
+Ojo de Agua,State of Mexico,19.68028,-99.01
+Xico,State of Mexico,19.29167,-98.93889
+Celaya,Guanajuato,20.52889,-100.815
+Tepic,Nayarit,21.51639,-104.89417
+Ixtapaluca,State of Mexico,19.31861,-98.88222
+Cuernavaca,Morelos,18.91861,-99.23417
+Villahermosa,Tabasco,17.98917,-92.92806
+Ciudad Victoria,Tamaulipas,23.73611,-99.14611
+Ensenada,Baja California,31.85778,-116.60583
+Ciudad Obregón,Sonora,27.48917,-109.935
+Ciudad Nicolás Romero,State of Mexico,19.625,-99.31417
+Soledad,San Luis Potosí,22.18306,-100.94083
+Ciudad Benito Juárez,Nuevo León,25.6475,-100.09472
+Playa del Carmen,Quintana Roo,20.6275,-87.08111
+Santa Catarina,Nuevo León,25.67556,-100.46222
+Gómez Palacio,Durango,25.56111,-103.49833
+Uruapan,Michoacán,19.41944,-102.05833
+Los Mochis,Sinaloa,25.79361,-108.99694
+Pachuca,Hidalgo,20.12167,-98.73583
+Tampico,Tamaulipas,22.25528,-97.86861
+Tehuacán,Puebla,18.46389,-97.39306
+San Francisco Coacalco,State of Mexico,19.63333,-99.09306
+Nogales,Sonora,31.31861,-110.94583
+Oaxaca,Oaxaca,17.06778,-96.72
+La Paz,Baja California Sur,24.14222,-110.31083
+Campeche,Campeche,19.84583,-90.53667
+Monclova,Coahuila,26.90083,-101.41667
+García,Nuevo León,25.81667,-100.58333
+Chilpancingo,Guerrero,17.55,-99.50111
+Puerto Vallarta,Jalisco,20.61361,-105.22722
+Toluca,State of Mexico,19.29222,-99.65389
+Tapachula,Chiapas,14.90806,-92.26056
+Buenavista (Tultitlán),State of Mexico,19.60833,-99.16944
+Coatzacoalcos,Veracruz,18.13583,-94.46333
+Ciudad Madero,Tamaulipas,22.27639,-97.83139
+Cabo San Lucas,Baja California Sur,22.88972,-109.91556
+Chicoloapan,State of Mexico,19.41528,-98.90111
+Ciudad del Carmen,Campeche,18.63833,-91.83528
+San Cristóbal de las Casas,Chiapas,16.73667,-92.63833
+Poza Rica,Veracruz,20.53417,-97.44361
+San Juan del Río,Querétaro,20.38889,-99.99639
+San Luis Río Colorado,Sonora,32.47667,-114.7625
+Chalco,State of Mexico,19.26472,-98.8975
+Jiutepec,Morelos,18.88139,-99.17778
+Piedras Negras,Coahuila,28.7,-100.52306
+Guadalupe,Zacatecas,22.75278,-102.50778
+Chetumal,Quintana Roo,18.50361,-88.30528
+Miramar (Altamira),Tamaulipas,22.33306,-97.86639
+Salamanca,Guanajuato,20.57028,-101.19722
+Ciudad Acuña,Coahuila,29.32417,-100.93167
+Manzanillo,Colima,19.05222,-104.31583
+San Pablo de las Salinas,State of Mexico,19.66556,-99.09167
+Cuautla,Morelos,18.81222,-98.95583
+Zamora,Michoacán,19.98556,-102.28306
+Minatitlán,Veracruz,17.98333,-94.55
+Villa de Álvarez,Colima,19.26389,-103.73694
+Colima,Colima,19.24167,-103.72806
